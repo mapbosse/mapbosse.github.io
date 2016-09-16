@@ -7,12 +7,70 @@
 <meta name=‘viewport’ content=‘initial-scale=1,maximum-scale=1,user-scalable=no’ />
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.min.css" />
-<style>
-    
-body {  
-    background: #f5f5f5;   
-    font-family: Imprima, sans-serif;
-}
+<link href="https://fonts.googleapis.com/css?family=Imprima" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet">
+<style>   
+	body {  
+    	background: #f5f5f5;   
+    	font-family: Imprima, sans-serif;
+	}
+	header { 
+			width: 100%;
+			min-width: 800px;
+			margin:0 auto;
+			background: steelblue;
+			padding: 15px 0 20px;
+		}
+	h1 { 
+		font-family: Dosis, sans-serif;
+		color: #375671; 
+		width: 80%;
+		margin: 0 auto;
+		color: whitesmoke;
+	}
+	h2 { 
+		font-family: Dosis, sans-serif;
+		color: #375671;
+		width: 80%;
+		margin: 0 auto;
+		color: whitesmoke;
+	}
+	h3 {
+        font-family: Dosis, sans-serif;
+        color: #003d71
+    }
+    p { 
+        font-size: .9em; 
+        color: #375671; 
+    }
+    ul {
+        list-style-type: none; 
+        font-size: .9em; 
+        color: #375671; 
+        line-height: 1.6em;
+    }
+    a, a:visited {   
+        color: #003d71;
+    }
+	.project {
+		width: 80%;
+		min-width: 800px;
+		height: 100%;
+		margin: 35px auto;
+	}
+	.project:after{
+		content: "";
+		display: table;
+		clear: both; 
+	}
+	.project-image {
+		width: 388px;
+		height: 240px;
+		background: white;
+		float: left;
+		margin-right: 20px;
+		border: 2px solid #dddddd;
+	}
 </style>
 </head>
 
@@ -32,8 +90,8 @@ body {
         <li><a href="" /></li>
     </ul>
 </section>-->
-<section>
-   <a target = '_blank' href="https://www.arcgis.com/home/webmap/viewer.html?webmap=7664f9fbb8364299a576c5aa699d6d3d"><img src="myimages/waltbuiltenvzoomout.PNG" /></a>
+<section class="project">
+   <a target = '_blank' href="https://www.arcgis.com/home/webmap/viewer.html?webmap=7664f9fbb8364299a576c5aa699d6d3d"><img src="myimages/waltbuiltenvzoomout.PNG" atl="map of West Atlanta showing housing conditions" class="project-image"/></a>
     <h3><a target = '_blank' href="https://www.arcgis.com/home/webmap/viewer.html?webmap=7664f9fbb8364299a576c5aa699d6d3d">West Atlanta Built Environment Survey </a></h3>
     <p>Amber's first major engagment with web-mapping took place during a participatory action mapping project with a community organization based in West Atlanta. This organization, called the Westside Atlanta Land Trust, wanted to take advantage of their non-profit ArcGIS Online account and make a web map that shows the conditions of the housing stock in their neighborhood. As such, I used ArcMap to build a database which could then be populated using ArcGIS collector mobile application. The point symbols on this map are the result of the countless hours of resident performed data collection. </p>
     <ul>
@@ -41,17 +99,17 @@ body {
         <li>More information about WALT and their mission <a target = '_blank'  href="http://www.helporginc.org/walt-2015.html">here</a></li>
     </ul>
 </section>
-<section>
-   <a target = '_blank' href="#"><img src="myimages/placesyoullgo.PNG" /></a>
+<section class="project">
+   <a target = '_blank' href="#"><img src="myimages/placesyoullgo.PNG" atl="map with three markers" class="project-image"/></a>
     <h3><a target = '_blank' href="#">Oh, the places you'll go </a></h3>
     <p>Amber's first "homemade" web-map is a product of the week 3 module of the NMP MAP 672 course. In order to make this map, she first had to XXXXXXXXXXXX </p>
     <ul>
         <li>See the full map, in all its glory<a target = '_blank'  href="#"> here </a></li>
     </ul>
 </section> 
-<section>
-   <a target = '_blank' href="#"><img src="myimages/lab9small.PNG" /></a>
-    <a target = '_blank' href="#"><img src="myimages/lab9large.PNG" /></a>
+<section class="project">
+   <a target = '_blank' href="#"><img src="myimages/lab9small.PNG" atl="small scale map of US Energy map" class="project-image"/></a>
+    <a target = '_blank' href="#"><img src="myimages/lab9large.PNG" atl="large scale map of US Energy map" class="project-image" /></a>
     <h3><a target = '_blank' href="#">Energy in the US </a></h3>
     <p>As Amber's most recent homemade web-map, XXXXXXXXXXXX </p>
     <ul>
